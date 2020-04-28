@@ -1,7 +1,7 @@
 'use strict'; 
 
 // Dependencies
-const http = require('http'); //
+const http = require('http');
 const fs = require('fs');
 
 // Cache
