@@ -12,7 +12,7 @@ http.createServer((req, res) => {
 
     // Parse coockies
     const cookie = req.headers.cookie;
-    const cookies = {};hjgjhg
+    const cookies = {};
     if (cookie) cookie.split(';').forEach(item => {
         const parts = item.split('=');
         cookies[(parts[0]).trim()] = (parts[1] || '').trim();
